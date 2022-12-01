@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="style/tienda.css">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <ul class="lista-nav">
+            <a href="inicio.html">
+                <li>Inicio</li>
+            </a>
+            <a href="tienda.html">
+                <li>Tienda</li>
+            </a>
+            <a href="catalogo.html">
+                <li>Catalogo</li>
+            </a>
+            <a href="contacto.html">
+                <li>Contacto</li>
+            </a>
+        </ul>
+    </nav>
+    <div class="inventario-container">
+
+    </div>
+    <div class="contenido-principal">
+        <form class="formulario">
+            <select name="Categoria" id="select-categoria">
+                <option value="" selected disabled>
+                    Seleccione una opcion
+                </option>
+                <option value="guayos">
+                    Guayos
+                </option>
+                <option value="zapatillas">
+                    Zapatillas
+                </option>
+                <option value="tennis">
+                    Tennis
+                </option>
+            </select>
+            <input type="text" placeholder="Ingrese el nombre del zapato">
+            <input type="number" min="0" max="10" placeholder="Cantidad">
+            <input type="number" min="0" max="1000000" step="50000" placeholder="Precio">
+            <button>
+                Enviar
+            </button>
+        </form>
+    </div>
+    <footer class="footer">
+        <p></p>
+    </footer>
+    <script type="module" src="script/scriptTienda/tienda.js"></script>
+</body>
+
+</html>

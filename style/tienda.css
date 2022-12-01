@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.nav-bar {
+    background-color: black;
+    width: 100%;
+    height: 170px;
+    color: white;
+}
+
+.nav-bar ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+
+}
+
+.lista-nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    transition: all .7s;
+}
+
+.lista-nav a:hover {
+    color: lightgoldenrodyellow;
+    border-bottom: .5px solid lightgoldenrodyellow;
+}
+
+.formulario {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.formulario input {
+    width: 200px;
+}
+
+.formulario select {
+    width: 200px;
+}
+
+.formulario button {
+    width: fit-content;
+    cursor: pointer;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    margin-top: 70px;
+}body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
