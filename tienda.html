@@ -18,17 +18,12 @@
             <a href="tienda.html">
                 <li>Tienda</li>
             </a>
-            <a href="catalogo.html">
-                <li>Catalogo</li>
-            </a>
-            <a href="contacto.html">
-                <li>Contacto</li>
+            <a href="carrito.html">
+                <img src="images/carrito.png" alt="carrito.png" class="carrito-compras" id="carrito-compras">
             </a>
         </ul>
     </nav>
-    <div class="inventario-container">
-
-    </div>
+    
     <div class="contenido-principal">
         <form class="formulario">
             <select name="Categoria" id="select-categoria">
@@ -45,13 +40,17 @@
                     Tennis
                 </option>
             </select>
-            <input type="text" placeholder="Ingrese el nombre del zapato">
-            <input type="number" min="0" max="10" placeholder="Cantidad">
-            <input type="number" min="0" max="1000000" step="50000" placeholder="Precio">
-            <button>
+            <input type="text" placeholder="Ingrese el nombre del zapato" id="nombre-zapatos">
+            <input type="number" min="0" max="10" placeholder="Cantidad" id="cantidad-zapatos">
+            <input type="number" min="0" max="1000000" step="50000" placeholder="Precio" id="precio-zapatos">
+            <input type="url" placeholder="Ingrese la URL" id="url-zapatos">
+            <button id="boton-formulario">
                 Enviar
             </button>
         </form>
+    </div>
+    <div id="inventario-container">
+
     </div>
     <footer class="footer">
         <p></p>
